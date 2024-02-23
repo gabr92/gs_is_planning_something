@@ -1,0 +1,7 @@
+def print_reverse(word):
+	new_word = ''
+	n = -1
+	for letter in word:
+		new_word = new_word + word[n]
+		n = n -1
+	print(new_word)
